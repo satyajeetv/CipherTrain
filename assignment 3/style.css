@@ -1,0 +1,32 @@
+.index {
+    background-image: linear-gradient(rgb(165, 165, 46), green);
+}
+p{
+    color: brown; font-size: xx-large;
+}
+
+a{
+    color: red; font-size: x-large;
+}
+
+.login{
+    background-color: black;
+}
+.signup{
+    background-color: black;
+}
+h1{
+    color: green;
+}
+form{
+    color: white;
+}
+.submit{
+    background-color: blue; color: white;
+}
+.reset{
+    background-color: red; color: white;
+}
+h4{
+    color: white;
+}
