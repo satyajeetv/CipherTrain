@@ -1,0 +1,50 @@
+.index {
+    background-image: linear-gradient(rgb(165, 165, 46), green);
+}
+div.main{
+    display:flex;
+    width: 75%;
+    margin-left: 5%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+img{
+    height: 150px;
+    width: 100%;
+    border-color:black;
+    border-style:solid;
+    border-width:3px;
+    border-radius: 10px;
+}
+div.inner{
+    width: 20%;
+    height: 350px;
+    border: 7px double black;
+    padding: 15px;
+    margin-left: 5%;
+    background-color:brown;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav{
+
+    text-align: center;
+    display: flex;
+    background-color:black;
+    padding: 2px;
+    margin-bottom: 40px;
+}
+a{
+    font-size: 150%;
+    text-decoration: none;
+    margin-left: 1%;
+    color: green;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+a:hover{
+    background-color:white;
+    color: black;
+}
