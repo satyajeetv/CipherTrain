@@ -1,0 +1,74 @@
+body{
+    background-color: white;
+}
+.form{
+    padding: 0% 2%;
+    width: 300px;
+    margin-left: 36%;
+    border-color: black;
+    border-style: solid;
+    background-color: grey;
+}
+p{
+    color: black;
+    text-align: left;
+}
+h3{
+    color: black;
+    margin-left: 43%;
+}
+
+img{
+    width:150px;
+    margin-left: 43%;
+}
+a{
+    color: rgb(0,191,255);
+    text-align: right;
+    text-decoration: none;
+}
+.submit{
+    background-color: green; 
+    color: white;
+    padding: 3% 40%;
+    color: white;
+    border-radius: 7%;
+}
+.emailpassform{
+    padding: 5% 35%;
+    font-size: 14%;
+    line-height: 20%;
+    border: 1px solid var(--color-input-border);
+    border-radius: 6px;
+    outline: none;
+}
+.newaccount{
+    padding: 5px 42px;
+    width: 250px;
+    margin-left: 36%;
+    border-style: solid;
+    border-radius: 7px;
+    border-color:black;
+}
+@media screen and (max-width:650px) {
+    img{
+        width: 100px; 
+        margin-left: 25%;
+    }
+    input,button{
+        width: 80%;
+    }
+    h3{
+        margin-left:20% ;
+    }
+    .form{
+        margin-left: 10%;
+        width: 260px;
+    }
+ .newaccount{
+     margin-left: 10%;
+     padding: 3px 20px;
+     width: 230px;
+ }
+
+}
